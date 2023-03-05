@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ruda', sans-serif;
+    background-color: #000000;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr;
+    font-family: 'Ruda', sans-serif;
+    padding: 16px;
+    background-color: black;
+    color: #fff;
+}
+
+#header {
+   font-size: 30px;
+   font-weight: 700;
+   padding-top: 16px;
+}
+
+.mid-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    gap: 30px;
+}
+
+.mid-title a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.right-title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.right-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* pizza top */
+
+.body-container {
+    position: relative;
+    background-image: url("pizza1.png");
+    width: 1518px;
+    height: 900px;
+}
+
+.craving-pizza {
+    position: absolute;
+    width: 600px;
+    height: 215px;
+    left: 150px;
+    top: 100px;
+    font-family: 'Quattrocento', serif;
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 108px;
+    letter-spacing: 0.2em;
+}
+.pink-line {
+    position: absolute;
+    width: 500px;
+    height: 13px;
+    left: 170px;
+    top: 450px;
+    background: #F24C4C;
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.pizza-para1 {
+    position: absolute;
+    left: 170px;
+    top: 600px;
+    width: 600px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    color: #fff;
+}
+
+/* about-us */
+
+.about-us {
+    font-family: 'Quattrocento', serif;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.pink-line1 {
+    width: 400px;
+    height: 5px;
+    background: #B62828;
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+    margin: 16px auto 0px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.abt-para1 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+    width: 450px;
+    height: 320px;
+    line-height: 2;
+    color: #fff;
+}
+
+.abt-img {
+    width: 350px;
+    height: 320px;
+}
+
+/* menu */
+
+.pink-line2 {
+    width: 350px;
+    height: 5px;
+    background: #B62828;
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+    margin: 16px auto 0px;
+}
+
+.menu-lorem {
+    font-family: 'Ruda', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+    letter-spacing: 9%;
+    color: #fff;
+    margin: 100px;
+    width: 1310px;
+}
+
+/* menu list */
+.grid-container-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2 , auto);
+    grid-gap: 30px;
+    grid-row-gap: 50px;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.lorem-cont {
+    width: 300px;
+    height: 120px;
+}
+
+.lorem-title {
+    color: #F2C94C;
+    text-transform: uppercase;
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+.lorem-para {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* find us */
+
+.findUs-container {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.findus-lorem {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    width: 420px;
+}
+
+.findus-location {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.findus-location span {
+    margin:5px 0 0 16px;
+}
+
+.findus-contact {
+    margin-left: 10px;
+}
+
+.map-img {
+    width: 500px;
+    height: 320px;
+}
+
+/* contact-us */
+
+.contact-us {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-img {
+   margin-right: 250px;
+   margin-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.findus-contact1 {
+    margin-left: 20px;
+}
